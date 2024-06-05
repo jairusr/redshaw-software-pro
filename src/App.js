@@ -12,7 +12,7 @@ function App() {
         <div className='main-content'>
           <MainContentTabs/>
         </div>
-        <div className='App-footer'>test</div>          
+        <div className='App-footer'>&copy; 2024 Redshaw Software Limited. All rights reserved.</div>          
     </div>
   );
 }

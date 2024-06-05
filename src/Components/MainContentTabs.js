@@ -18,6 +18,7 @@ export default () => (
         <div>    
           <p>
             We are crafting bespoke software, specialising in integrations, automation, and interactive data visualisation.
+            Call us today!
           </p>
         </div>
         <div/>
@@ -32,13 +33,13 @@ export default () => (
           <div className="icon-container">
             <img src={phoneIcon} alt="Phone Icon" className="icon" />
           </div>
-          <p>022 020 5733</p>
+          <p><a href="tel:0220205733">022 020 5733</a></p>
         </div>
         <div className="contact-details">
           <div className="icon-container">
             <img src={emailIcon} alt="Email Icon" className="icon" />
           </div>
-          <p>info@redshawsoftware.pro</p>
+          <p><a href="mailto:info@redshawsoftware.pro">info@redshawsoftware.pro</a></p>
         </div>
       </div>
       <div/>      
