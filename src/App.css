@@ -3,7 +3,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 100%;
 }
 
 .App-logo {
@@ -22,12 +22,6 @@
   color: white;
 }
 
-.BottomDrawer-container {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
 .no-padding{
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -39,6 +33,5 @@
 }
 
 .main-content{
-  border-top: solid 1px;
   padding-top: 20px;
 }

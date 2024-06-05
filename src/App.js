@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import logo from './main_banner.png';
+import MainContentTabs from './Components/MainContentTabs.js';
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
       </header>
       <body>
         <div className='main-content'>
-          About       Contact
+          <MainContentTabs/>
         </div>          
       </body>
+      <footer>Test</footer>
     </div>
   );
 }

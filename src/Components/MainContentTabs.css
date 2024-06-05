@@ -1,0 +1,35 @@
+/* Grid layout for the container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    grid-gap: 20px;
+  }
+  
+  /* Contact details styling */
+  .contact-details {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the spacing between the icon and the text as needed */
+  }
+  
+  /* Ensure all icons have the same width */
+  .icon-container {
+    width: 50px; /* Adjust to the width of the widest icon */
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .icon {
+    max-width: 100%; /* Ensure the icon fits within the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* https://github.com/reactjs/react-tabs/blob/main/style/react-tabs.css */
+  .react-tabs__tab-list {
+    border-bottom: 1px solid #2D1737;
+  }
+  
+  .react-tabs__tab--selected {
+    border-color: #2D1737;
+  }
