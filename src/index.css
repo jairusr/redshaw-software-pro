@@ -1,4 +1,4 @@
-html, body {
+html {
   margin: 0;
   font-family: "poppins", sans-serif;
   font-weight: 400;
@@ -9,13 +9,24 @@ html, body {
   margin: 0;
 }
 
-header {
-  max-height: 40%;
+#root{
+  height: 100%;
 }
 
-header, footer {
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+header {
+  max-height: 40%;
   background-color: #f1f1f1;
-  padding: 10px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  margin-bottom: 0px;
 }
 
 main {
@@ -23,7 +34,3 @@ main {
   background-color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

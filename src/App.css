@@ -20,16 +20,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  max-height: 40%;
 }
 
-.no-padding{
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-
-.no-margin{
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+.App-footer{
+  margin-bottom: 0px;
 }
 
 .main-content{

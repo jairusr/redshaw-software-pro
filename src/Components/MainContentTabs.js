@@ -13,7 +13,16 @@ export default () => (
     </TabList>
 
     <TabPanel>
-      <h2>Any content 1</h2>
+      <div className='about-grid-container'>
+        <div/>
+        <div>    
+          <p>
+            We are crafting bespoke software, specialising in integrations, automation, and interactive data visualisation.
+          </p>
+        </div>
+        <div/>
+      </div>
+
     </TabPanel>
     <TabPanel>
     <div className="grid-container">

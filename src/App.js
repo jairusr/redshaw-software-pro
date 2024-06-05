@@ -6,15 +6,13 @@ import MainContentTabs from './Components/MainContentTabs.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <body>
+      </div>
         <div className='main-content'>
           <MainContentTabs/>
-        </div>          
-      </body>
-      <footer>Test</footer>
+        </div>
+        <div className='App-footer'>test</div>          
     </div>
   );
 }
