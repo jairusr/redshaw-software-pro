@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './main_banner.png';
+import logo from './Assets/Images/Standard-Logo-300x300.svg';
 import MainContentTabs from './Components/MainContentTabs.js';
 
 function App() {
